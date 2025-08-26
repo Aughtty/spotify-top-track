@@ -12,78 +12,47 @@ LIMIT = int(os.getenv("SPOTIFY_LIMIT", "5"))
 # 定义多种风格
 STYLES = [
     # ===================== 颜色风格 =====================
-    # 0. 蓝色风格, 为默认风格
     {
         "name": "blue",
-        "bg": "#0d1117",  # 背景色：非常深的蓝黑色
-        "card": "#161b22",  # 卡片背景色：比背景稍浅的深灰蓝色
-        "title": "#c9d1d9",  # 标题文字色：浅灰白，清晰可读
-        "subtitle": "#8b949e",  # 副标题文字色：中灰蓝色，用于次要信息
-        "text": "#e6edf3",  # 正文文字色：接近白色，舒适易读
-        "accent": "#58a6ff",  # 强调色：亮蓝色，用于按钮、链接或重点
-        "bar_bg": "#30363d"  # 进度条背景色：暗灰蓝色，低调不抢眼
+        "bg": "#0d1117",
+        "card": "#161b22",
+        "title": "#c9d1d9",
+        "subtitle": "#8b949e",
+        "text": "#e6edf3",
+        "accent": "#58a6ff",
+        "bar_bg": "#30363d"
     },
-    # 1. 经典绿色风格
     {
         "name": "green",
-        "bg": "#0d1117",  # 背景色：非常深的蓝黑色
-        "card": "#161b22",  # 卡片背景色：比背景稍浅的深灰蓝色
-        "title": "#c9d1d9",  # 标题文字色：浅灰白，清晰可读
-        "subtitle": "#8b949e",  # 副标题文字色：中灰蓝色，用于次要信息
-        "text": "#e6edf3",  # 正文文字色：接近白色，舒适易读
-        "accent": "#1D8348",  # 强调色：深绿色
-        "bar_bg": "#A9DFBF"  # 进度条背景色：浅绿色
+        "bg": "#0d1117",
+        "card": "#161b22",
+        "title": "#c9d1d9",
+        "subtitle": "#8b949e",
+        "text": "#e6edf3",
+        "accent": "#1D8348",
+        "bar_bg": "#A9DFBF"
     },
-    # 2. 暖色调风格
     {
         "name": "warm",
-        "bg": "#1c1c1c",  # 背景色：深灰色
-        "card": "#2e2e2e",  # 卡片背景色：稍浅的深灰色
-        "title": "#f5f5f5",  # 标题文字色：接近白色
-        "subtitle": "#b0b0b0",  # 副标题文字色：中灰色
-        "text": "#e0e0e0",  # 正文文字色：浅灰色
-        "accent": "#ff6f61",  # 强调色：珊瑚红
-        "bar_bg": "#ffcccb"  # 进度条背景色：浅珊瑚红
+        "bg": "#1c1c1c",
+        "card": "#2e2e2e",
+        "title": "#f5f5f5",
+        "subtitle": "#b0b0b0",
+        "text": "#e0e0e0",
+        "accent": "#ff6f61",
+        "bar_bg": "#ffcccb"
     },
-    # 3. 冷色调风格
-     {
-        "name": "cool",
-        "bg": "#0f2027",  # 背景色：深蓝绿色
-        "card": "#203a43",  # 卡片背景色：深青色
-        "title": "#e0f7fa",  # 标题文字色：浅青色
-        "subtitle": "#80deea",  # 副标题文字色：中浅青色
-        "text": "#b2ebf2",  # 正文文字色：浅青色
-        "accent": "#00acc1",  # 强调色：亮青色
-        "bar_bg": "#4dd0e1"  # 进度条背景色：中浅青色
-
-     },
-    # 4. 紫色风格
     {
         "name": "purple",
-        "bg": "#0d0d1a",    # 背景色：非常深的紫黑色
-        "card": "#1b1b2f",  # 卡片背景色：比背景稍浅的深紫色
-        "title": "#d0c0ff", # 标题文字色：浅紫色
-        "subtitle": "#b0a0ff",  # 副标题文字色：中紫色
-        "text": "#e0dfff",  # 正文文字色：接近白色
-        "accent": "#a070ff",    # 强调色：亮紫色
-        "bar_bg": "#3a3a50"     # 进度条背景色：暗紫色
+        "bg": "#0d0d1a",
+        "card": "#1b1b2f",
+        "title": "#d0c0ff",
+        "subtitle": "#b0a0ff",
+        "text": "#e0dfff",
+        "accent": "#a070ff",
+        "bar_bg": "#3a3a50"
     },
-    # 5. 粉色风格
-    {
-        "name": "pink",
-        "bg": "#1a0d1a",  # 背景色：非常深的粉紫色
-        "card": "#2f1b2f",  # 卡片背景色：比背景稍浅的深粉色
-        "title": "#ffd0e0",  # 标题文字色：浅粉色
-        "subtitle": "#ffb0c0",  # 副标题文字色：中粉色
-        "text": "#ffe0f0",  # 正文文字色：接近白色
-        "accent": "#ff70a0",  # 强调色：亮粉色
-        "bar_bg": "#503a50"  # 进度条背景色：暗粉色
-
-    }
-
 ]
-
-
 
 # ===================== 功能函数 =====================
 def get_access_token():
@@ -111,15 +80,21 @@ def time_range_label(tr):
 
 def esc(s): return html.escape(s, quote=True)
 
-def build_svg(tracks, style):
-    width = 720
+# ===================== 修改1: 新增 size 参数 =====================
+def build_svg(tracks, style, size="medium"):
+    if size == "small":
+        width = 360   # 小卡片宽度
+    elif size == "large":
+        width = 1080  # 占满整行
+    else:
+        width = 720   # 默认中等大小
+
     row_h = 36
     padding_top = 100
     padding_side = 24
     gap = 12
     height = padding_top + len(tracks)*(row_h+gap)+36
 
-    # 计算条长度（按排名衰减）
     max_bar = width - padding_side*2 - 160
     lengths = []
     for i in range(len(tracks)):
@@ -160,17 +135,19 @@ def build_svg(tracks, style):
     svg_parts.append("</svg>")
     return "\n".join(svg_parts)
 
+# ===================== 修改2: 在 main() 里生成三种大小 =====================
 def main():
     token = get_access_token()
     tracks = fetch_top_tracks(token)
-    out_dir = pathlib.Path("assets")
+    out_dir = pathlib.Path("spotify-top-svgs")
     out_dir.mkdir(parents=True, exist_ok=True)
 
     for style in STYLES:
-        svg = build_svg(tracks, style)
-        out_path = out_dir / f"spotify-top-{style['name']}.svg"
-        out_path.write_text(svg, encoding="utf-8")
-        print(f"Generated {out_path}")
+        for size in ["small", "medium", "large"]:  # 生成三种大小
+            svg = build_svg(tracks, style, size=size)
+            out_path = out_dir / f"{style['name']}_{size}.svg"
+            out_path.write_text(svg, encoding="utf-8")
+            print(f"Generated {out_path}")
 
 if __name__ == "__main__":
     main()
