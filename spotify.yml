@@ -1,0 +1,42 @@
+name: Update Spotify SVG
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # 每6小时
+  workflow_dispatch:        # 手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Generate Spotify Top SVG
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+          SPOTIFY_TIME_RANGE: ${{ vars.SPOTIFY_TIME_RANGE || 'short_term' }}  # 默认为 短时间段内的播放量数据
+          SPOTIFY_LIMIT: ${{ vars.SPOTIFY_LIMIT || 5 }}  # 获取前 N 的歌曲，默认为5
+        run: python scripts/spotify_top_svg.py
+
+      - name: Commit & Push
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A .
+            git commit -m "chore: update spotify svg"
+            git push
+          else
+            echo "No changes"
+          fi
