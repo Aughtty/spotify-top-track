@@ -27,7 +27,7 @@ jobs:
           SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
           SPOTIFY_TIME_RANGE: ${{ vars.SPOTIFY_TIME_RANGE || 'short_term' }}  # 默认为 短时间段内的播放量数据
           SPOTIFY_LIMIT: ${{ vars.SPOTIFY_LIMIT || 5 }}  # 获取前 N 的歌曲，默认为5
-        run: python scripts/spotify_svg.py
+        run: python spotify_svg.py
 
       - name: Commit & Push
         run: |
