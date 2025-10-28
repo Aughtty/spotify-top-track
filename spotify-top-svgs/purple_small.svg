@@ -3,7 +3,7 @@
 <rect width="360" height="376" rx="16" fill="#0d0d1a"/>
 <rect x="8" y="8" width="344" height="360" rx="14" fill="#1b1b2f" stroke="#3a3a50"/>
 <text x="24" y="40" font-size="20" fill="#d0c0ff" font-weight="600">Top Spotify Tracks</text>
-<text x="24" y="64" font-size="13" fill="#b0a0ff">Last 4 weeks · Updated 2025-10-28 12:40 UTC</text>
+<text x="24" y="64" font-size="13" fill="#b0a0ff">Last 4 weeks · Updated 2025-10-28 18:30 UTC</text>
 <circle cx="36" cy="90" r="11" fill="#a070ff"/>
 <text x="36" y="94" text-anchor="middle" font-size="12" fill="#0d0d1a" font-weight="700">1</text>
 <a href="https://open.spotify.com/track/3I8tlHNA9NM8dL0B23xGIY" target="_blank" rel="noopener noreferrer">
@@ -14,10 +14,10 @@
 <rect x="56" y="124" width="270" height="8" rx="4" fill="#a070ff"/>
 <circle cx="36" cy="138" r="11" fill="#a070ff"/>
 <text x="36" y="142" text-anchor="middle" font-size="12" fill="#0d0d1a" font-weight="700">2</text>
-<a href="https://open.spotify.com/track/7c1D58U8AIVOGlYzh5U6sk" target="_blank" rel="noopener noreferrer">
-<text x="56" y="148" font-size="14" fill="#e0dfff" font-weight="600">空山新雨后</text>
+<a href="https://open.spotify.com/track/2gttnS8fWnDwziLFt2TLEi" target="_blank" rel="noopener noreferrer">
+<text x="56" y="148" font-size="14" fill="#e0dfff" font-weight="600">百战成诗2023 - 现场版</text>
 </a>
-<text x="56" y="166" font-size="12" fill="#b0a0ff">音阙诗听</text>
+<text x="56" y="166" font-size="12" fill="#b0a0ff">令狐襄儿, AG超玩会梦泪, 晃儿, 帝听sakya, 顾知行, 晴愔, 纪粹希, 于冬然, 呦猫UNEKO</text>
 <rect x="56" y="172" width="270" height="8" rx="4" fill="#3a3a50"/>
 <rect x="56" y="172" width="237" height="8" rx="4" fill="#a070ff"/>
 <circle cx="36" cy="186" r="11" fill="#a070ff"/>
