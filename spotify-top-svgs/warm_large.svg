@@ -3,7 +3,7 @@
 <rect width="1080" height="376" rx="16" fill="#1c1c1c"/>
 <rect x="8" y="8" width="1064" height="360" rx="14" fill="#2e2e2e" stroke="#ffcccb"/>
 <text x="24" y="40" font-size="20" fill="#f5f5f5" font-weight="600">Top Spotify Tracks</text>
-<text x="24" y="64" font-size="13" fill="#b0b0b0">Last 4 weeks · Updated 2026-01-13 06:35 UTC</text>
+<text x="24" y="64" font-size="13" fill="#b0b0b0">Last 4 weeks · Updated 2026-01-13 12:49 UTC</text>
 <circle cx="36" cy="90" r="11" fill="#ff6f61"/>
 <text x="36" y="94" text-anchor="middle" font-size="12" fill="#1c1c1c" font-weight="700">1</text>
 <a href="https://open.spotify.com/track/3lePQ8c4jq7bTePsXEmslh" target="_blank" rel="noopener noreferrer">
@@ -14,34 +14,34 @@
 <rect x="56" y="124" width="918" height="8" rx="4" fill="#ff6f61"/>
 <circle cx="36" cy="138" r="11" fill="#ff6f61"/>
 <text x="36" y="142" text-anchor="middle" font-size="12" fill="#1c1c1c" font-weight="700">2</text>
-<a href="https://open.spotify.com/track/2q9uhrOfyOnBa3oWR1PfYT" target="_blank" rel="noopener noreferrer">
-<text x="56" y="148" font-size="14" fill="#e0e0e0" font-weight="600">降溫</text>
+<a href="https://open.spotify.com/track/0RW2LEfGQK5BaIho6sSLqf" target="_blank" rel="noopener noreferrer">
+<text x="56" y="148" font-size="14" fill="#e0e0e0" font-weight="600">以爱为囚</text>
 </a>
-<text x="56" y="166" font-size="12" fill="#b0b0b0">許嵩</text>
+<text x="56" y="166" font-size="12" fill="#b0b0b0">满舒克</text>
 <rect x="56" y="172" width="918" height="8" rx="4" fill="#ffcccb"/>
 <rect x="56" y="172" width="807" height="8" rx="4" fill="#ff6f61"/>
 <circle cx="36" cy="186" r="11" fill="#ff6f61"/>
 <text x="36" y="190" text-anchor="middle" font-size="12" fill="#1c1c1c" font-weight="700">3</text>
-<a href="https://open.spotify.com/track/0RW2LEfGQK5BaIho6sSLqf" target="_blank" rel="noopener noreferrer">
-<text x="56" y="196" font-size="14" fill="#e0e0e0" font-weight="600">以爱为囚</text>
+<a href="https://open.spotify.com/track/69lAYqbyHL1A0gctdLd9WV" target="_blank" rel="noopener noreferrer">
+<text x="56" y="196" font-size="14" fill="#e0e0e0" font-weight="600">醉赤壁</text>
 </a>
-<text x="56" y="214" font-size="12" fill="#b0b0b0">满舒克</text>
+<text x="56" y="214" font-size="12" fill="#b0b0b0">JJ Lin</text>
 <rect x="56" y="220" width="918" height="8" rx="4" fill="#ffcccb"/>
 <rect x="56" y="220" width="697" height="8" rx="4" fill="#ff6f61"/>
 <circle cx="36" cy="234" r="11" fill="#ff6f61"/>
 <text x="36" y="238" text-anchor="middle" font-size="12" fill="#1c1c1c" font-weight="700">4</text>
-<a href="https://open.spotify.com/track/69lAYqbyHL1A0gctdLd9WV" target="_blank" rel="noopener noreferrer">
-<text x="56" y="244" font-size="14" fill="#e0e0e0" font-weight="600">醉赤壁</text>
+<a href="https://open.spotify.com/track/4ToeYifpQaikbYa7krOD6s" target="_blank" rel="noopener noreferrer">
+<text x="56" y="244" font-size="14" fill="#e0e0e0" font-weight="600">卜卦</text>
 </a>
-<text x="56" y="262" font-size="12" fill="#b0b0b0">JJ Lin</text>
+<text x="56" y="262" font-size="12" fill="#b0b0b0">崔子格</text>
 <rect x="56" y="268" width="918" height="8" rx="4" fill="#ffcccb"/>
 <rect x="56" y="268" width="587" height="8" rx="4" fill="#ff6f61"/>
 <circle cx="36" cy="282" r="11" fill="#ff6f61"/>
 <text x="36" y="286" text-anchor="middle" font-size="12" fill="#1c1c1c" font-weight="700">5</text>
-<a href="https://open.spotify.com/track/4ToeYifpQaikbYa7krOD6s" target="_blank" rel="noopener noreferrer">
-<text x="56" y="292" font-size="14" fill="#e0e0e0" font-weight="600">卜卦</text>
+<a href="https://open.spotify.com/track/5HAMeMgu9hGL5a8ZwNz6cp" target="_blank" rel="noopener noreferrer">
+<text x="56" y="292" font-size="14" fill="#e0e0e0" font-weight="600">禁區</text>
 </a>
-<text x="56" y="310" font-size="12" fill="#b0b0b0">崔子格</text>
+<text x="56" y="310" font-size="12" fill="#b0b0b0">黃齡</text>
 <rect x="56" y="316" width="918" height="8" rx="4" fill="#ffcccb"/>
 <rect x="56" y="316" width="477" height="8" rx="4" fill="#ff6f61"/>
 </svg>
