@@ -3,7 +3,7 @@
 <rect width="720" height="376" rx="16" fill="#1c1c1c"/>
 <rect x="8" y="8" width="704" height="360" rx="14" fill="#2e2e2e" stroke="#ffcccb"/>
 <text x="24" y="40" font-size="20" fill="#f5f5f5" font-weight="600">Top Spotify Tracks</text>
-<text x="24" y="64" font-size="13" fill="#b0b0b0">Last 4 weeks · Updated 2026-01-27 06:36 UTC</text>
+<text x="24" y="64" font-size="13" fill="#b0b0b0">Last 4 weeks · Updated 2026-01-27 12:52 UTC</text>
 <circle cx="36" cy="90" r="11" fill="#ff6f61"/>
 <text x="36" y="94" text-anchor="middle" font-size="12" fill="#1c1c1c" font-weight="700">1</text>
 <a href="https://open.spotify.com/track/3lePQ8c4jq7bTePsXEmslh" target="_blank" rel="noopener noreferrer">
@@ -14,34 +14,34 @@
 <rect x="56" y="124" width="540" height="8" rx="4" fill="#ff6f61"/>
 <circle cx="36" cy="138" r="11" fill="#ff6f61"/>
 <text x="36" y="142" text-anchor="middle" font-size="12" fill="#1c1c1c" font-weight="700">2</text>
-<a href="https://open.spotify.com/track/6usmG2MoD0C0Lc2pNgCVWV" target="_blank" rel="noopener noreferrer">
-<text x="56" y="148" font-size="14" fill="#e0e0e0" font-weight="600">Cry on My Shoulder</text>
+<a href="https://open.spotify.com/track/69FUNgvEVkNbHq43lgvdme" target="_blank" rel="noopener noreferrer">
+<text x="56" y="148" font-size="14" fill="#e0e0e0" font-weight="600">如纱（《仙剑四》菱纱主题曲）</text>
 </a>
-<text x="56" y="166" font-size="12" fill="#b0b0b0">Deutschland sucht den Superstar</text>
+<text x="56" y="166" font-size="12" fill="#b0b0b0">鞠婧祎</text>
 <rect x="56" y="172" width="540" height="8" rx="4" fill="#ffcccb"/>
 <rect x="56" y="172" width="475" height="8" rx="4" fill="#ff6f61"/>
 <circle cx="36" cy="186" r="11" fill="#ff6f61"/>
 <text x="36" y="190" text-anchor="middle" font-size="12" fill="#1c1c1c" font-weight="700">3</text>
-<a href="https://open.spotify.com/track/4ToeYifpQaikbYa7krOD6s" target="_blank" rel="noopener noreferrer">
-<text x="56" y="196" font-size="14" fill="#e0e0e0" font-weight="600">卜卦</text>
+<a href="https://open.spotify.com/track/6usmG2MoD0C0Lc2pNgCVWV" target="_blank" rel="noopener noreferrer">
+<text x="56" y="196" font-size="14" fill="#e0e0e0" font-weight="600">Cry on My Shoulder</text>
 </a>
-<text x="56" y="214" font-size="12" fill="#b0b0b0">崔子格</text>
+<text x="56" y="214" font-size="12" fill="#b0b0b0">Deutschland sucht den Superstar</text>
 <rect x="56" y="220" width="540" height="8" rx="4" fill="#ffcccb"/>
 <rect x="56" y="220" width="410" height="8" rx="4" fill="#ff6f61"/>
 <circle cx="36" cy="234" r="11" fill="#ff6f61"/>
 <text x="36" y="238" text-anchor="middle" font-size="12" fill="#1c1c1c" font-weight="700">4</text>
-<a href="https://open.spotify.com/track/4AmlSf7hye0QVpnHCcEoEw" target="_blank" rel="noopener noreferrer">
-<text x="56" y="244" font-size="14" fill="#e0e0e0" font-weight="600">城府</text>
+<a href="https://open.spotify.com/track/4ToeYifpQaikbYa7krOD6s" target="_blank" rel="noopener noreferrer">
+<text x="56" y="244" font-size="14" fill="#e0e0e0" font-weight="600">卜卦</text>
 </a>
-<text x="56" y="262" font-size="12" fill="#b0b0b0">許嵩</text>
+<text x="56" y="262" font-size="12" fill="#b0b0b0">崔子格</text>
 <rect x="56" y="268" width="540" height="8" rx="4" fill="#ffcccb"/>
 <rect x="56" y="268" width="345" height="8" rx="4" fill="#ff6f61"/>
 <circle cx="36" cy="282" r="11" fill="#ff6f61"/>
 <text x="36" y="286" text-anchor="middle" font-size="12" fill="#1c1c1c" font-weight="700">5</text>
-<a href="https://open.spotify.com/track/0yYmS4k3R0TTdDhvOBxRVp" target="_blank" rel="noopener noreferrer">
-<text x="56" y="292" font-size="14" fill="#e0e0e0" font-weight="600">愛的雙重 魔力</text>
+<a href="https://open.spotify.com/track/4AmlSf7hye0QVpnHCcEoEw" target="_blank" rel="noopener noreferrer">
+<text x="56" y="292" font-size="14" fill="#e0e0e0" font-weight="600">城府</text>
 </a>
-<text x="56" y="310" font-size="12" fill="#b0b0b0">BY2</text>
+<text x="56" y="310" font-size="12" fill="#b0b0b0">許嵩</text>
 <rect x="56" y="316" width="540" height="8" rx="4" fill="#ffcccb"/>
 <rect x="56" y="316" width="280" height="8" rx="4" fill="#ff6f61"/>
 </svg>
