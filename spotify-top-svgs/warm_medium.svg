@@ -3,7 +3,7 @@
 <rect width="720" height="376" rx="16" fill="#1c1c1c"/>
 <rect x="8" y="8" width="704" height="360" rx="14" fill="#2e2e2e" stroke="#ffcccb"/>
 <text x="24" y="40" font-size="20" fill="#f5f5f5" font-weight="600">Top Spotify Tracks</text>
-<text x="24" y="64" font-size="13" fill="#b0b0b0">Last 4 weeks · Updated 2026-02-17 02:09 UTC</text>
+<text x="24" y="64" font-size="13" fill="#b0b0b0">Last 4 weeks · Updated 2026-02-17 06:59 UTC</text>
 <circle cx="36" cy="90" r="11" fill="#ff6f61"/>
 <text x="36" y="94" text-anchor="middle" font-size="12" fill="#1c1c1c" font-weight="700">1</text>
 <a href="https://open.spotify.com/track/69FUNgvEVkNbHq43lgvdme" target="_blank" rel="noopener noreferrer">
@@ -14,34 +14,34 @@
 <rect x="56" y="124" width="540" height="8" rx="4" fill="#ff6f61"/>
 <circle cx="36" cy="138" r="11" fill="#ff6f61"/>
 <text x="36" y="142" text-anchor="middle" font-size="12" fill="#1c1c1c" font-weight="700">2</text>
-<a href="https://open.spotify.com/track/5l9sg05BhpfsdLfRvjGsAf" target="_blank" rel="noopener noreferrer">
-<text x="56" y="148" font-size="14" fill="#e0e0e0" font-weight="600">虚拟</text>
+<a href="https://open.spotify.com/track/03PCdwqajii1xgp7WIozzC" target="_blank" rel="noopener noreferrer">
+<text x="56" y="148" font-size="14" fill="#e0e0e0" font-weight="600">江湖</text>
 </a>
-<text x="56" y="166" font-size="12" fill="#b0b0b0">陳粒</text>
+<text x="56" y="166" font-size="12" fill="#b0b0b0">許嵩</text>
 <rect x="56" y="172" width="540" height="8" rx="4" fill="#ffcccb"/>
 <rect x="56" y="172" width="475" height="8" rx="4" fill="#ff6f61"/>
 <circle cx="36" cy="186" r="11" fill="#ff6f61"/>
 <text x="36" y="190" text-anchor="middle" font-size="12" fill="#1c1c1c" font-weight="700">3</text>
-<a href="https://open.spotify.com/track/4AmlSf7hye0QVpnHCcEoEw" target="_blank" rel="noopener noreferrer">
-<text x="56" y="196" font-size="14" fill="#e0e0e0" font-weight="600">城府</text>
+<a href="https://open.spotify.com/track/5l9sg05BhpfsdLfRvjGsAf" target="_blank" rel="noopener noreferrer">
+<text x="56" y="196" font-size="14" fill="#e0e0e0" font-weight="600">虚拟</text>
 </a>
-<text x="56" y="214" font-size="12" fill="#b0b0b0">許嵩</text>
+<text x="56" y="214" font-size="12" fill="#b0b0b0">陳粒</text>
 <rect x="56" y="220" width="540" height="8" rx="4" fill="#ffcccb"/>
 <rect x="56" y="220" width="410" height="8" rx="4" fill="#ff6f61"/>
 <circle cx="36" cy="234" r="11" fill="#ff6f61"/>
 <text x="36" y="238" text-anchor="middle" font-size="12" fill="#1c1c1c" font-weight="700">4</text>
-<a href="https://open.spotify.com/track/6PLof7Z5mvbp9im83J4m3m" target="_blank" rel="noopener noreferrer">
-<text x="56" y="244" font-size="14" fill="#e0e0e0" font-weight="600">情字成劫</text>
+<a href="https://open.spotify.com/track/4AmlSf7hye0QVpnHCcEoEw" target="_blank" rel="noopener noreferrer">
+<text x="56" y="244" font-size="14" fill="#e0e0e0" font-weight="600">城府</text>
 </a>
-<text x="56" y="262" font-size="12" fill="#b0b0b0">余又</text>
+<text x="56" y="262" font-size="12" fill="#b0b0b0">許嵩</text>
 <rect x="56" y="268" width="540" height="8" rx="4" fill="#ffcccb"/>
 <rect x="56" y="268" width="345" height="8" rx="4" fill="#ff6f61"/>
 <circle cx="36" cy="282" r="11" fill="#ff6f61"/>
 <text x="36" y="286" text-anchor="middle" font-size="12" fill="#1c1c1c" font-weight="700">5</text>
-<a href="https://open.spotify.com/track/6Tv5ukQ3xK8WHxJgWMM6vM" target="_blank" rel="noopener noreferrer">
-<text x="56" y="292" font-size="14" fill="#e0e0e0" font-weight="600">隠形的翅膀</text>
+<a href="https://open.spotify.com/track/6PLof7Z5mvbp9im83J4m3m" target="_blank" rel="noopener noreferrer">
+<text x="56" y="292" font-size="14" fill="#e0e0e0" font-weight="600">情字成劫</text>
 </a>
-<text x="56" y="310" font-size="12" fill="#b0b0b0">Angela Chang</text>
+<text x="56" y="310" font-size="12" fill="#b0b0b0">余又</text>
 <rect x="56" y="316" width="540" height="8" rx="4" fill="#ffcccb"/>
 <rect x="56" y="316" width="280" height="8" rx="4" fill="#ff6f61"/>
 </svg>
